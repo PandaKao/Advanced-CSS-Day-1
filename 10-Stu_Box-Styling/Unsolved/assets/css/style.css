@@ -69,10 +69,15 @@ footer {
   padding: 10px;
   margin: 20px;
   flex: 0 0 300px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .5);
+  transform: rotate(7deg);
 }
 
 .card header {
   padding: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
 }
 
 .card p {
@@ -84,6 +89,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
   main,
   nav {
     flex-direction: column;
